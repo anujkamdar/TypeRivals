@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+}
+
+.realtime-stats {
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6e0951;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 20px 20px;
+  border-radius: 64px;
+}
+
+
+.timer span {
+  font-size: 32px;
+  font-weight: bold;
+
+}
+
+.realtime-WPM {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.realtime-WPM div {
+  background-color: #6e0951;
+  padding: 16px 24px;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 16px;
+}
+
+.realtime-accuracy {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.realtime-accuracy div{
+  background-color: #6e0951;
+  padding: 16px 24px;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 16px;
+  
+
+}
+
+.typing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+
+.target-text {
+    margin-top: 5vh;
+    width: 80vw;
+    background-color: #0d1016;
+    padding: 32px 32px;
+    border-radius: 32px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 5vh;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.input-area {
+    color: black;
+    max-width: 80vw;
+    min-width: 80vw;
+    background-color: black;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.input-area {
+    color: wheat;
+    border: none;
+    background-color: #0d1016;
+}
+  
+.correct  {
+    opacity: 1;
+    font-weight: bold;
+    color: rgb(16, 185, 129);
+}
+  
+.incorrect {
+    opacity: 1;
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+
+/* white is better looking for now will change later */
+/* .untyped {
+  opacity: 0.8;
+} */
+
+
+.hide {
+  display: none;
+}
+
+
+
+  

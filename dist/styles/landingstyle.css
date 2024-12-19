@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: Inter;
+
+}
+
+*{
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-and-name {
+    font-weight:bold;
+    font-size: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 3vh;
+    left: 5vh;
+}
+.logo-and-name img{
+    height: 40px;
+}
+.upper {
+    background: linear-gradient(to bottom, #072b23, #000);
+    height: 70vh;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.upper .content {
+    padding-top: 11vh;
+    text-align: center;
+}
+
+.content .tagline {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content .paraland {
+    margin-top: 10px;
+    max-width: 800px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 40px;
+}
+
+.content .btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btns button{
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 30px 15px 30px;
+}
+
+.btns .signup {
+    background-color: #10b981;
+}
+
+.btns .signup:hover {
+    background-color: #0d815f; /* Darker Emerald */
+  }
+
+.btns .signin {
+    background-color: #2e3948
+}
+
+.btns .signin:hover {
+    background-color: rgb(93, 91, 91);
+
+}
+
+.lower {
+    background-color: aqua;
+    height: 80vh;
+    background-color: #111827; 
+
+}
+
+.lower .content {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.lower .content .heading h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.lower .content .heading p {
+    color: rgba(255,255, 255, 0.6);
+    margin-bottom: 60px;
+}
+
+
+.feature {
+    max-height: 120px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 250px;
+    background-color: #1f2937;
+    transition: 200ms;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.features {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.feature img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.feature h1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: rgba(255,255, 255, 0.6); 
+
+}
+
+.sign-in-modal {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.sign-up-modal {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 16px;
+    width: 350px;
+    padding: 40px;
+    position: relative;
+    background-color: #111827;
+}
+
+.modal-content span {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.modal-content h2 {
+    margin-bottom: 24px;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modal-content form label{
+    margin-bottom: 4px;
+}
+
+.modal-content form input {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 8px 16px 8px 16px; 
+    background-color: #1F2937;
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+}
+
+
+.modal-content form input:focus {
+    outline: 2px solid white;
+}
+
+.modal-content form button {
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(16,185,129);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}

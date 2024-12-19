@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, xinitial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/headerandsidebar.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <h2>TypeRivals</h2>
+        </div>
+        <div class="header-right">
+            <div class="public-profile">
+                <img src="icons/derek-muller-3.jpg">
+                <p>Username</p>
+            </div>
+            <img class="logout" src="icons/arrow-right-from-bracket-solid (1).svg">
+        </div>
+    </div>
+    <div class="flex">
+        <div class="sidebar">
+            <div class="side-bar-element">
+                <img src="icons/house-svgrepo-com (2).svg">
+                <p>Dashboard</p>
+            </div>
+            <div class="side-bar-element">
+                <img src="icons/trophy-svgrepo-com.svg">
+                <p>Leaderboard</p>
+            </div>    
+            <div class="side-bar-element">
+                <img src="icons/history-svgrepo-com (1).svg">
+                <p>History</p>
+            </div>
+            <div class="side-bar-element">
+                <img src="icons/book-open-svgrepo-com.svg">
+                <p>Blogs</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="welcome">
+                <div class="content">
+                    <div class="heading">
+                        <img src="icons/keyboard-regular (1).svg">
+                        <h2>Welcome back, <span>Username</span></h2>
+                    </div>
+                    <p>Ready to improve your typing speed? Your current best is <span>120</span> WPM. Challenge yourself to beat that record today!</p>
+                    <div class="btns">
+                        <button id="temporary">Temporary</button>
+                        <button id="view-progress">View Progress</button>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="icons/keyboards-mod-musings-01.jpg">
+                </div>
+            </div>
+            <div class="take-test">
+                <h2>Take Test</h2>
+                <div class="difficulty-selecion">
+                    <div class="difficulty-selection-card" id="easy">
+                        <img src="icons/star-rings-svgrepo-com.svg">
+                        <div>
+                            <h3>Easy</h3>
+                            <p>30-50 WPM</p>
+                        </div>
+                    </div>
+                    <div class="difficulty-selection-card" id="medium">
+                        <img src="icons/sword-svgrepo-com.svg" alt="">
+                        <div>
+                            <h3>Medium</h3>
+                            <p>50-80 WPM</p>
+                        </div>  
+                    </div>
+                    <div class="difficulty-selection-card" id="hard">
+                        <img src="icons/sword-material-svgrepo-com.svg" alt="">
+                        <div>
+                            <h3>Hard</h3>
+                            <p>80+ WPM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
