@@ -230,3 +230,8 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.image-preview img{
+    max-height: 200px;
+    max-width: 200px;
+}

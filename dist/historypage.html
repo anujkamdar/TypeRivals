@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contest</title>
     <link rel="stylesheet" href="styles/headerandsidebar.css">
-    <link rel="stylesheet" href="styles/contestpage.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
     <div class="header">
@@ -23,21 +23,30 @@
             <img class="logout" src="icons/arrow-right-from-bracket-solid (1).svg">
         </div>
     </div>
-    <div class="realtime-stats">
-        <div class="timer"><span>30</span>seconds</div>
-        <div class="realtime-WPM">
-            <div>0</div>
-            <p>WPM</p>
+    <div class="flex">
+        <div class="sidebar">
+            <div class="side-bar-element" id="dashboard">
+                <img src="icons/house-svgrepo-com (2).svg">
+                <p>Dashboard</p>
+            </div>
+            <div class="side-bar-element">
+                <img src="icons/trophy-svgrepo-com.svg">
+                <p>Leaderboard</p>
+            </div>    
+            <div class="side-bar-element">
+                <img src="icons/history-svgrepo-com (1).svg">
+                <p>History</p>
+            </div>
+            <div class="side-bar-element">
+                <img src="icons/book-open-svgrepo-com.svg">
+                <p>Blogs</p>
+            </div>
         </div>
-        <div class="realtime-accuracy">
-            <div>0</div>
-            <p>Accuracy</p>
+        <div class="verify-history-page main-content">
+            <div class="contest-history">
+            </div>
         </div>
-    </div>
-    <div class="typing-container">
-        <div class="target-text"></div>
-        <textarea class="input-area"></textarea>
-    </div> 
-    <script src="bundle.js"></script> 
+    </div>    
+    <script src="bundle.js"></script>
 </body>
 </html>

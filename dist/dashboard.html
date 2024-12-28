@@ -18,23 +18,21 @@
         </div>
         <div class="header-right">
             <div class="public-profile">
-                <img src="icons/derek-muller-3.jpg">
-                <p>Username</p>
             </div>
             <img class="logout" src="icons/arrow-right-from-bracket-solid (1).svg">
         </div>
     </div>
     <div class="flex">
         <div class="sidebar">
-            <div class="side-bar-element">
+            <div class="side-bar-element" id="dashboard">
                 <img src="icons/house-svgrepo-com (2).svg">
                 <p>Dashboard</p>
             </div>
-            <div class="side-bar-element">
+            <div class="side-bar-element" id="leaderboard">
                 <img src="icons/trophy-svgrepo-com.svg">
                 <p>Leaderboard</p>
             </div>    
-            <div class="side-bar-element">
+            <div class="side-bar-element" id="history">
                 <img src="icons/history-svgrepo-com (1).svg">
                 <p>History</p>
             </div>
@@ -48,9 +46,9 @@
                 <div class="content">
                     <div class="heading">
                         <img src="icons/keyboard-regular (1).svg">
-                        <h2>Welcome back, <span>Username</span></h2>
+                        <h2>Welcome back, <span></span></h2>
                     </div>
-                    <p>Ready to improve your typing speed? Your current best is <span>120</span> WPM. Challenge yourself to beat that record today!</p>
+                    <p>Ready to improve your typing speed? Your current best is <span>--</span> WPM. Challenge yourself to beat that record today!</p>
                     <div class="btns">
                         <button id="temporary">Temporary</button>
                         <button id="view-progress">View Progress</button>
@@ -63,7 +61,7 @@
             <div class="take-test">
                 <h2>Take Test</h2>
                 <div class="difficulty-selecion">
-                    <div class="difficulty-selection-card" id="easy">
+                    <div class="difficulty-selection-card selected" id="easy" >
                         <img src="icons/star-rings-svgrepo-com.svg">
                         <div>
                             <h3>Easy</h3>
@@ -83,6 +81,32 @@
                             <h3>Hard</h3>
                             <p>80+ WPM</p>
                         </div>
+                    </div>
+                </div>
+                <div class="time-selection">
+                    <div class="column-flex">
+                        <div class="time-selection-card">
+                            <img src="icons/clock-regular.svg">
+                            <h3>30 seconds</h3>
+                            <p>Perferct for beginners</p>
+                        </div>
+                        <div class="btn-div"><button class="start-test" id="30">Start Test</button></div>
+                    </div>
+                    <div class="column-flex">
+                        <div class="time-selection-card">
+                            <img src="icons/clock-regular.svg">
+                            <h3>1 minute</h3>
+                            <p>Perferct for beginners</p>
+                        </div>
+                        <div class="btn-div"><button class="start-test" id="60">Start Test</button></div>
+                    </div>
+                    <div class="column-flex">
+                        <div class="time-selection-card">
+                            <img src="icons/clock-regular.svg">
+                            <h3>2 minute</h3>
+                            <p>Perferct for beginners</p>
+                        </div>
+                        <div class="btn-div"><button class="start-test" id="120">Start Test</button></div>
                     </div>
                 </div>
             </div>
